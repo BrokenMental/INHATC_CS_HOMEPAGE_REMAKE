@@ -1,0 +1,695 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- ==============================
+    Project:        Metronic "Asentus" Frontend Freebie - Responsive HTML Template Based On Twitter Bootstrap 3.3.4
+    Version:        1.0
+    Author:         KeenThemes
+    Primary use:    Corporate, Business Themes.
+    Email:          support@keenthemes.com
+    Follow:         http://www.twitter.com/keenthemes
+    Like:           http://www.facebook.com/keenthemes
+    Website:        http://www.keenthemes.com
+    Premium:        Premium Metronic Admin Theme: http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes
+================================== -->
+<html lang="en" class="no-js">
+    <!-- BEGIN HEAD -->
+    <head>
+        <meta charset="utf-8"/>
+        
+        <title>:: 컴퓨터정보과-학과소개</title>
+        <!-- 탭메뉴 -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta content="width=device-width, initial-scale=1" name="viewport"/>
+        <meta content="" name="description"/>
+        <meta content="" name="author"/>
+
+        <!-- GLOBAL MANDATORY STYLES -->
+        <link href="http://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet" type="text/css">
+        <link href="vendor/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css"/>
+        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+
+        <!-- PAGE LEVEL PLUGIN STYLES -->
+        <link href="css/animate.css" rel="stylesheet">
+
+        <!-- THEME STYLES -->
+        <link href="css/layout.min.css" rel="stylesheet" type="text/css"/>
+
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="favicon.ico"/>
+    </head>
+    <!-- END HEAD -->
+    <style>
+        body {font-family: Arial;}
+
+        /* Style the tab */
+        div.tab {
+            overflow: hidden;
+            border: 1px solid #ccc;
+            background-color: #ffffff;
+        }
+
+        /* Style the buttons inside the tab */
+        div.tab button {
+            background-color: inherit;
+            float: left;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            padding: 14px 16px;
+            transition: 0.3s;
+            font-size: 17px;
+        }
+
+        /* Change background color of buttons on hover */
+        div.tab button:hover {
+            background-color: rgb(220, 220, 220);
+        }
+
+        /* Create an active/current tablink class */
+        div.tab button.active {
+            background-color: rgb(220, 220, 220);
+        }
+
+        /* Style the tab content */
+        .tabcontent {
+            display: none;
+            padding: 6px 12px;
+            -webkit-animation: fadeEffect 1s;
+            animation: fadeEffect 1s;
+        }
+
+        /* Fade in tabs */
+        @-webkit-keyframes fadeEffect {
+            from {opacity: 0;}
+            to {opacity: 1;}
+        }
+
+        @keyframes fadeEffect {
+            from {opacity: 0;}
+            to {opacity: 1;}
+        }
+
+        /* 교과과정 */
+        body { background: #fff; }
+        .curriculum {
+            border-collapse: collapse;
+            border-top: 3px solid #168;
+        }  
+        .curriculum th {
+            color: #168;
+            background: #f0f6f9;
+        }
+        .curriculum th, .curriculum td {
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+        .curriculum th:first-child, .curriculum td:first-child {
+            border-left: 0;
+        }
+        .curriculum th:last-child, .curriculum td:last-child {
+            border-right: 0;
+        }
+        
+        .jssorl-009-spin img {
+            animation-name: jssorl-009-spin;
+            animation-duration: 1.6s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+
+        @keyframes jssorl-009-spin {
+            from {
+                transform: rotate(0deg);
+            }to{
+                transform: rotate(360deg);
+            }
+        }
+
+
+        .jssorb052 .i {position:absolute;cursor:pointer;}
+        .jssorb052 .i .b {fill:#000;fill-opacity:0.3;}
+        .jssorb052 .i:hover .b {fill-opacity:.7;}
+        .jssorb052 .iav .b {fill-opacity: 1;}
+        .jssorb052 .i.idn {opacity:.3;}
+
+        .jssora053 {display:block;position:absolute;cursor:pointer;}
+        .jssora053 .a {fill:none;stroke:#fff;stroke-width:640;stroke-miterlimit:10;}
+        .jssora053:hover {opacity:.8;}
+        .jssora053.jssora053dn {opacity:.5;}
+        .jssora053.jssora053ds {opacity:.3;pointer-events:none;}
+        
+        /* Fade in tabs */
+        @-webkit-keyframes fadeEffect {
+            from {opacity: 0;}
+            to {opacity: 1;}
+        }
+
+        @keyframes fadeEffect {
+            from {opacity: 0;}
+            to {opacity: 1;}
+        }
+
+        body { background: #fff; }
+        .curriculum {
+            border-collapse: collapse;
+            border-top: 3px solid #168;
+        }  
+        .curriculum th {
+            color: #168;
+            background: #f0f6f9;
+        }
+        .curriculum th, .curriculum td {
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+        .curriculum th:first-child, .curriculum td:first-child {
+            border-left: 0;
+        }
+        .curriculum th:last-child, .curriculum td:last-child {
+            border-right: 0;
+        }
+        #contents .key350_box .key350_ctnbox img{
+            float: left; 
+            width: 192px;
+        }
+
+        #contents h3 {
+            width: auto;
+            height: auto;
+            margin: 0.8em 0;
+            padding: 0 0 0 17px;
+            background: url(../images/sub/h3bg.gif) no-repeat 10px 2px;
+            color: #636363;
+            font-weight: bold;
+            font-size: 1em;
+            text-align: left;
+            letter-spacing: -1px;
+            line-height: 1.25;
+            clear: both;
+        }
+        #contents ul.bu li {
+            margin: 0;
+            padding: 0 0 0 0.8em;
+            list-style: none;
+            background: url(../images/sub/bu_li1.gif) no-repeat 0 0.5em;
+        }
+        #contents .key350_box .key350_ctnbox {
+            border : 1px;
+            padding: 12px 0 10px 0px;
+            width: 720px;
+        }
+        #key350_ctnbox clearfix{
+            width: 720px;
+        }
+        .test1{
+            border:1px solid #cccccc;
+            padding: 20px;
+          
+        }
+        .bu{
+            padding-left: 15px;
+        }
+    </style>
+    <script>
+        function openCity(evt, cityName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(cityName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+
+        window.onload = function(){
+            document.getElementById("defaultOpen").click();
+        }
+    </script>
+    <!-- BODY -->
+    <body>
+    <script src="js/jquery-1.11.3.min.js" type="text/javascript"></script>
+    <script src="js/jssor.slider-26.5.2.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+            var jssor_1_SlideoTransitions = [
+              [{b:0,d:600,y:-290,e:{y:27}}],
+              [{b:0,d:1000,y:185},{b:1000,d:500,o:-1},{b:1500,d:500,o:1},{b:2000,d:1500,r:360},{b:3500,d:1000,rX:30},{b:4500,d:500,rX:-30},{b:5000,d:1000,rY:30},{b:6000,d:500,rY:-30},{b:6500,d:500,sX:1},{b:7000,d:500,sX:-1},{b:7500,d:500,sY:1},{b:8000,d:500,sY:-1},{b:8500,d:500,kX:30},{b:9000,d:500,kX:-30},{b:9500,d:500,kY:30},{b:10000,d:500,kY:-30},{b:10500,d:500,c:{x:87.50,t:-87.50}},{b:11000,d:500,c:{x:-87.50,t:87.50}}],
+              [{b:0,d:600,x:410,e:{x:27}}],
+              [{b:-1,d:1,o:-1},{b:0,d:600,o:1,e:{o:5}}],
+              [{b:-1,d:1,c:{x:175.0,t:-175.0}},{b:0,d:800,c:{x:-175.0,t:175.0},e:{c:{x:7,t:7}}}],
+              [{b:-1,d:1,o:-1},{b:0,d:600,x:-570,o:1,e:{x:6}}],
+              [{b:-1,d:1,o:-1,r:-180},{b:0,d:800,o:1,r:180,e:{r:7}}],
+              [{b:0,d:1000,y:80,e:{y:24}},{b:1000,d:1100,x:570,y:170,o:-1,r:30,sX:9,sY:9,e:{x:2,y:6,r:1,sX:5,sY:5}}],
+              [{b:2000,d:600,rY:30}],
+              [{b:0,d:500,x:-105},{b:500,d:500,x:230},{b:1000,d:500,y:-120},{b:1500,d:500,x:-70,y:120},{b:2600,d:500,y:-80},{b:3100,d:900,y:160,e:{y:24}}],
+              [{b:0,d:1000,o:-0.4,rX:2,rY:1},{b:1000,d:1000,rY:1},{b:2000,d:1000,rX:-1},{b:3000,d:1000,rY:-1},{b:4000,d:1000,o:0.4,rX:-1,rY:-1}]
+            ];
+
+            var jssor_1_options = {
+              $AutoPlay: 1,
+              $Idle: 2000,
+              $Align: 0,
+              $CaptionSliderOptions: {
+                $Class: $JssorCaptionSlideo$,
+                $Transitions: jssor_1_SlideoTransitions,
+                $Breaks: [
+                  [{d:2000,b:1000}]
+                ]
+              },
+              $ArrowNavigatorOptions: {
+                $Class: $JssorArrowNavigator$
+              },
+              $BulletNavigatorOptions: {
+                $Class: $JssorBulletNavigator$
+              }
+            };
+
+            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+
+            /*#region responsive code begin*/
+
+            var MAX_WIDTH = 1900;
+
+            function ScaleSlider() {
+                var containerElement = jssor_1_slider.$Elmt.parentNode;
+                var containerWidth = containerElement.clientWidth;
+
+                if (containerWidth) {
+
+                    var expectedWidth = Math.min(MAX_WIDTH || containerWidth, containerWidth);
+
+                    jssor_1_slider.$ScaleWidth(expectedWidth);
+                }
+                else {
+                    window.setTimeout(ScaleSlider, 30);
+                }
+            }
+
+            ScaleSlider();
+
+            $(window).bind("load", ScaleSlider);
+            $(window).bind("resize", ScaleSlider);
+            $(window).bind("orientationchange", ScaleSlider);
+            /*#endregion responsive code end*/
+        });
+    </script>
+        <!--========== HEADER ==========-->
+        <header class="header navbar-fixed-top">
+            <!-- Navbar -->
+            <nav class="navbar" role="navigation">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="menu-container">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="toggle-icon"></span>
+                        </button>
+
+                        <!-- Logo -->
+                        <div class="logo">
+                            <a class="logo-wrap" href="home.html">
+                                <img class="logo-img logo-img-main" src="img/down/logo-white.png" alt="Asentus Logo">
+                                <img class="logo-img logo-img-active" src="img/down/logo.png" alt="Asentus Logo">
+                            </a>
+                        </div>
+                        <!-- End Logo -->
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse nav-collapse">
+                        <div class="menu-container">
+                            <ul class="navbar-nav navbar-nav-right">
+                                <li class="nav-item"><a class="nav-item-child nav-item-hover" href="home.html">Home</a></li>
+                                <li class="nav-item"><a class="nav-item-child nav-item-hover" href="notice.html">Notice</a></li>
+                                <li class="nav-item"><a class="nav-item-child nav-item-hover active" href="introduce.html">Introduce</a></li>
+                                <li class="nav-item"><a class="nav-item-child nav-item-hover" href="employment.html">Employment</a></li>
+                                <li class="nav-item"><a class="nav-item-child nav-item-hover" href="gallery.html">Gallery</a></li>
+                                <!--<li class="nav-item"><a class="nav-item-child nav-item-hover" href="contact.html">Contact</a></li>-->
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- End Navbar Collapse -->
+                </div>
+            </nav>
+            <!-- Navbar -->
+        </header>
+        <!--========== END HEADER ==========-->
+
+        <!--========== PARALLAX ==========-->
+        <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:980px;height:380px;overflow:hidden;visibility:hidden;">
+            <!-- Loading Screen -->
+            <div data-u="loading" class="jssorl-009-spin" style="position:absolute;top:0px;left:0px;width:100%;height:100%;text-align:center;background-color:rgba(0,0,0,0.7);">
+                <img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;" src="img/spin.svg" />
+            </div>
+            <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:980px;height:480px;overflow:hidden;">
+                <div>
+                    <img data-u="image" src="img/down/introduce/32.jpg" />
+                    <div data-u="caption" data-t="4" style="position:absolute;top:90px;left:520px;width:350px;height:30px;font-size:20px;color:#ffffff;text-align:right;">
+                        <h2 style="color:#ffffff">학과소개</h2>
+                        <p style="font-size:13px;color:#ffffff;text-align:right">IT 융합시대를 선도할 S/W 전문  인력 양성 <br/> 컴퓨터정보과</p>
+                    </div>
+                </div>
+                <div>
+                    <img data-u="image" src="img/down/introduce/31.png" />
+                    <div data-u="caption" data-t="5" style="position:absolute;top:100px;left:1100px;width:350px;height:40px;background-color:rgb(134, 175, 202);font-size:20px;color:#ffffff;line-height:1.5;text-align:center;"><h2>학과소개</h2>
+                    <p style="font-size:13px;color:#000000;text-align:right">IT 융합시대를 선도할 S/W 전문  인력 양성 <br/> 컴퓨터정보과</p>
+                    </div>
+                </div>
+                <div>
+                    <img data-u="image" src="img/down/introduce/20.PNG" />
+                     <div data-u="caption" data-t="2" style="position:absolute;top:100px;left:100px;width:350px;height:30px;font-size:20px;color:#ffffff;line-height:1.5;text-align:right;"><h2 style="color:#ffffff">학과소개</h2>
+                    <p style="font-size:13px;color:#ffffff;text-align:right">IT 융합시대를 선도할 S/W 전문  인력 양성 <br/> 컴퓨터정보과</p>
+                    </div>
+                </div>
+                <div data-p="170.00">
+                    <img data-u="image" src="img/down/introduce/30.jpg" />
+                    <div data-u="caption" data-t="3" style="position:absolute;top:100px;left:520px;width:350px;height:30px;font-size:20px;color:#ffffff;line-height:1.5;text-align:right;"><h2 style="color:#ffffff">학과소개</h2>
+                    <p style="font-size:13px;color:#ffffff;text-align:right">IT 융합시대를 선도할 S/W 전문  인력 양성 <br/> 컴퓨터정보과</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Bullet Navigator -->
+            <div data-u="navigator" class="jssorb052" style="position:absolute;bottom:12px;right:12px;" data-autocenter="1" data-scale="0.5" data-scale-bottom="0.75">
+                <div data-u="prototype" class="i" style="width:16px;height:16px;">
+                    <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                        <circle class="b" cx="8000" cy="8000" r="5800"></circle>
+                    </svg>
+                </div>
+            </div>
+            <!-- Arrow Navigator -->
+            <div data-u="arrowleft" class="jssora053" style="width:55px;height:55px;top:0px;left:25px;" data-autocenter="2" data-scale="0.75" data-scale-left="0.75">
+                <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                    <polyline class="a" points="11040,1920 4960,8000 11040,14080 "></polyline>
+                </svg>
+            </div>
+            <div data-u="arrowright" class="jssora053" style="width:55px;height:55px;top:0px;right:25px;" data-autocenter="2" data-scale="0.75" data-scale-right="0.75">
+                <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                    <polyline class="a" points="4960,1920 11040,8000 4960,14080 "></polyline>
+                </svg>
+            </div>
+        </div>
+        <!-- #endregion Jssor Slider End -->
+        <!--========== PARALLAX ==========-->
+
+        <!--========== PAGE LAYOUT ==========-->
+        <!-- Contact List -->
+        <br>
+        <div class="section-seperator">
+            <div class="container">
+                <div class="tab">
+                    <button class="tablinks" onclick="openCity(event, 'TAP1')" id="defaultOpen">교과과정</button>
+                    <button class="tablinks" onclick="openCity(event, 'TAP2')">교수진소개</button>
+                    <button class="tablinks" onclick="openCity(event, 'TAP4')">주요실습실</button>
+                </div>
+                <!-- 교과과정 -->       
+                <div id="TAP1" class="tabcontent"><br>
+                    <table class="curriculum" width = "100%">
+                        <tr>
+                            <th>양성분야</th>
+                            <th>제작자</th>
+                        </tr>
+                        <tr>
+                            <td>SI/SM 프로그래머</td>
+                            <td>IT 시스템(H/W, S/W) 구축-관리-유지보수 업무와 사용자 요구사항 분석 및 컨설팅 전문가 양성</td>
+                        </tr>
+                        <tr>
+                            <td>웹 프로그래머</td>
+                            <td>웹 프로그래밍 언어를 이용하여 웹 사이트 구축에 필요한 모듈 및 솔루션 개발 전문가 양성</td>
+                        </tr>
+                        <tr>
+                            <td>앱(App) 개발자</td>
+                            <td>스마트 폰 (안드로이드, iPhone 등) 플랫폼을 위한 응용프로그램 기획 및 개발 전문가 양성</td>
+                        </tr>
+                    </table><br>
+                    <div align = "right">
+                            <img src = "img/down/introduce/key2278_img01.jpg">
+                    </div>
+                    <div width = "916" align = "center">
+                            <img src = "img/down/introduce/key2278_img02.jpg">
+                    </div>
+                </div>
+                
+                <!--페이지 로드시 첫탭 활성화-->
+                <script>
+                    function openCity(evt, cityName) {
+                        var i, tabcontent, tablinks;
+                        tabcontent = document.getElementsByClassName("tabcontent");
+                        for (i = 0; i < tabcontent.length; i++) {
+                            tabcontent[i].style.display = "none";
+                        }
+                        tablinks = document.getElementsByClassName("tablinks");
+                        for (i = 0; i < tablinks.length; i++) {
+                            tablinks[i].className = tablinks[i].className.replace(" active", "");
+                        }
+                        document.getElementById(cityName).style.display = "block";
+                        evt.currentTarget.className += " active";
+                    }
+
+                    // Get the element with id="defaultOpen" and click on it
+                    document.getElementById("defaultOpen").click();
+                </script>
+                
+                <!-- 교수진소개 -->  
+                <div id="TAP2" class="tabcontent">
+                    <div class="content-lg container">
+                        <div class="row">
+                            <!-- Contact List -->
+                            <div class="col-sm-4 sm-margin-b-50">
+                                <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".3s">
+                                    <h3><a href="#">민태홍</a> <span class="text-uppercase margin-l-20">C 프로그래밍, C프로그래밍응용</span></h3>
+                                    <img src = "img/down/introduce/key483_img02.gif" width = "125" height = "145">
+                                    <ul class="list-unstyled contact-list">
+                                        <li><br><i class="margin-r-10 color-base icon-call-out"></i> 032-870-2323</li>
+                                        <li><i class="margin-r-10 color-base icon-envelope"></i> thmin@inhatc.ac.kr</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- End Contact List -->
+        
+                            <!-- Contact List -->
+                            <div class="col-sm-4 sm-margin-b-50">
+                                <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".3s">
+                                    <h3><a href="#">윤경섭</a> <span class="text-uppercase margin-l-20">자료구조, 시스템분석설계</span></h3>
+                                    <img src = "img/down/introduce/key483_img03.gif" width = "125" height = "145">
+                                    <ul class="list-unstyled contact-list">
+                                        <li><br><i class="margin-r-10 color-base icon-call-out"></i> 032-870-2324</li>
+                                        <li><i class="margin-r-10 color-base icon-envelope"></i> ksyoon@inhatc.ac.kr</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- End Contact List -->
+        
+                            <!-- Contact List -->
+                            <div class="col-sm-4 sm-margin-b-50">
+                                <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".3s">
+                                    <h3><a href="#">박진양</a> <span class="text-uppercase margin-l-20">전자공학개론, 컴퓨터논리회론, PC어셈블리, PC인터페이스</span></h3>
+                                    <img src = "img/down/introduce/key483_img04.gif" width = "125" height = "145">
+                                    <ul class="list-unstyled contact-list">
+                                        <li><br><i class="margin-r-10 color-base icon-call-out"></i> 032-870-2325</li>
+                                        <li><i class="margin-r-10 color-base icon-envelope"></i> jinyang@inhatc.ac.kr</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- End Contact List -->
+                        </div>
+                        <!--// end row -->
+                        <br><br>
+                        <div class="row">
+                            <!-- Contact List -->
+                            <div class="col-sm-4 sm-margin-b-50">
+                                <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".3s">
+                                    <h3><a href="#">허태성</a> <span class="text-uppercase margin-l-20">데이터베이스Oracle SQL& PL/SQL</span></h3>
+                                    <img src = "img/down/introduce/key483_img05.gif" width = "125" height = "145">
+                                    <ul class="list-unstyled contact-list">
+                                        <li><br><i class="margin-r-10 color-base icon-call-out"></i> 032-870-2326</li>
+                                        <li><i class="margin-r-10 color-base icon-envelope"></i> tshur@inhatc.ac.kr</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- End Contact List -->
+                                
+                            <!-- Contact List -->
+                            <div class="col-sm-4 sm-margin-b-50">
+                                <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".3s">
+                                    <h3><a href="#">이원주</a> <span class="text-uppercase margin-l-20">자바, 모바일프로그래밍, 객체지향프로그래밍</span></h3>
+                                    <img src = "img/down/introduce/key483_img06.gif" width = "125" height = "145">
+                                    <ul class="list-unstyled contact-list">
+                                        <li><br><i class="margin-r-10 color-base icon-call-out"></i> 032-870-2327</li>
+                                        <li><i class="margin-r-10 color-base icon-envelope"></i> wonjoo2@inhatc.ac.kr</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- End Contact List -->
+        
+                            <!-- Contact List -->
+                            <div class="col-sm-4 sm-margin-b-50">
+                                <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".3s">
+                                    <h3><a href="#">최효현</a> <span class="text-uppercase margin-l-20">TCP/IP. 센서네트워크</span></h3>
+                                    <img src = "img/down/introduce/key483_img07.gif" width = "125" height = "145">
+                                    <ul class="list-unstyled contact-list">
+                                        <li><br><i class="margin-r-10 color-base icon-call-out"></i> 032-870-2322</li>
+                                        <li><i class="margin-r-10 color-base icon-envelope"></i> hchoi@inhatc.ac.kr</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- End Contact List -->
+                        </div>
+                        <!--// end row -->
+                        <br><br>
+                        <div class="row">
+                            <!-- Contact List -->
+                            <div class="col-sm-4 sm-margin-b-50">
+                                <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".3s">
+                                    <h3><a href="#">조규철</a> <span class="text-uppercase margin-l-20">웹프로그래밍, 서버프로그래밍</span></h3>
+                                    <img src = "img/down/introduce/key483_img08.gif" width = "125" height = "145">
+                                    <ul class="list-unstyled contact-list">
+                                        <li><br><i class="margin-r-10 color-base icon-call-out"></i> 032-870-2328</li>
+                                        <li><i class="margin-r-10 color-base icon-envelope"></i> kccho@inhatc.ac.kr</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- End Contact List -->
+                                
+                            <!-- Contact List -->
+                            <div class="col-sm-4 sm-margin-b-50">
+                                <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".3s">
+                                    <h3><a href="#">김준상</a> <span class="text-uppercase margin-l-20">피지컬컴퓨팅, 사물인터넷</span></h3>
+                                    <img src = "img/down/introduce/key483_img09.gif" width = "125" height = "145">
+                                    <ul class="list-unstyled contact-list">
+                                        <li><br><i class="margin-r-10 color-base icon-call-out"></i> 032-870-2329</li>
+                                        <li><i class="margin-r-10 color-base icon-envelope"></i> jskim@inhatc.ac.kr</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- End Contact List -->
+        
+                            <!-- Contact List 
+                            <div class="col-sm-4 sm-margin-b-50">
+                                <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".3s">
+                                    <h3><a href="#">최효현</a> <span class="text-uppercase margin-l-20">TCP/IP. 센서네트워크</span></h3>
+                                    <img src = "img/down/key483_img07.gif" width = "125" height = "145">
+                                    <ul class="list-unstyled contact-list">
+                                        <li><br><i class="margin-r-10 color-base icon-call-out"></i> 032-870-2322</li>
+                                        <li><i class="margin-r-10 color-base icon-envelope"></i> finance@acidus.com</li>
+                                    </ul>
+                                </div>
+                            </div>-->
+                            <!-- End Contact List -->
+                        </div>
+                        <!--// end row -->
+                    </div>
+                </div>
+                <!-- 주요실습실 --> 
+                <div id="TAP4" class="tabcontent">
+                        <div class="key350_box"> 
+                            <br>
+                            <div class="key350_ctnbox clearfix">
+                                <div class = "test1">
+                                <a href="#" onclick="window.open('img/down/introduce/4-401.jpg','new','scrollbars=no,width=800,height=450,top=50,left=50');"><img src="img/down/introduce/4-401.jpg" width="200" height="160" alt="프로그래밍 실습실 이미지" style="float:left;margin-right:30px;"></a>
+                                <div>	
+                                    <h3 style="padding-left=20px;">프로그래밍(1) 실습실</h3>
+                                    <ul class="bu">
+                                        <li>실습실 위치: 4호관 401호</li>
+                                        <li>실습실 소개: 정보통신망을 구축하는데 필요한 정보통신기기들의 구성 및 동작원리와임베디드 시스템의 개념과 소프트웨어 개발 과정을 이해하여 시스템 설계 실습</li>
+                                        <li>주요실습과목: Start-Up 프로그래밍, 모바일프로그래밍, TCP/IP, 센서네트워크, 컴퓨터과학기초, 컴퓨터구조, iOS 프로그래밍, 사물인터넷, 프로그래밍 로직</li>
+                                    </ul>
+                                </div>
+
+                            </div>
+
+                        <div class = "test1">
+                            <div class="key350_ctnbox clearfix">	
+                                <a href="#" onclick="window.open('img/down/introduce/4-403.jpg','new','scrollbars=no,width=800,height=450,top=50,left=50');"><img src="img/down/introduce/4-403.jpg" width="200" height="160" alt="프로그래밍(2)  실습실 이미지" style="float: left;margin-right:30px;"></a>
+                                <div>	
+                                    <h3>프로그래밍(2)  실습실</h3>
+                                    <ul class="bu">
+                                        <li>실습실 위치: 4호관 403호</li>
+                                        <li>실습실 소개: Program Language 수업 및 윈도우기반 응용프로그램 제작</li>
+                                        <li>주요실습과목: Start-Up 프로그래밍, C프로그래밍, C#프로그래밍, 컴퓨팅적 사고, 객체지향프로그래밍, 소프트웨어 활용, 자료구조, 자바 프로그래밍, IT 기획, 빅데이터, 정보보안, 정보보안개론</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class = "test1">
+                            <div class="key350_ctnbox clearfix">	
+                                <a href="#" onclick="window.open('img/down/introduce/4-405.jpg','new','scrollbars=no,width=800,height=450,top=50,left=50 ' );"><img src="img/down/introduce/4-405.jpg" width="200" height="160" alt="프로그래밍(3) 실습실 이미지" style="float: left;margin-right:30px;"></a>
+                                <div>	
+                                    <h3>프로그래밍(3) 실습실</h3>
+                                    <ul class="bu">
+                                        <li>실습실 위치: 4호관 405호</li>
+                                        <li>실습실 소개: 웹 기반환경(WAS+WEB+DB 등)의 소프트웨어 개발 과정을 이해하고 웹 서비스 환경을 구축 및 서비스를 설계, 구현하여 실습</li>
+                                        <li>주요실습과목: Start-Up 프로그래밍, 시스템분석설계, 소프트웨어공학, 데이터베이스, Oracle SQL &amp; PL/SQL, 웹 프로그래밍, XML,, 서버 프로그래밍, 엔터프라이즈 서버관리</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class = "test1">
+                            <div class="key350_ctnbox clearfix">	
+                                <a href="#" onclick="window.open('img/down/introduce/7-302.jpg','new','scrollbars=no,width=800,height=450,top=50,left=50 ' );"><img src="img/down/introduce/7-302.jpg" width="200" height="160" alt="프로젝트 실습실 이미지" style="float: left;margin-right:30px;"></a>
+                                <div>	
+                                    <h3>프로젝트 실습실</h3>
+                                    <ul class="bu">
+                                        <li>실습실 위치: 7호관 302호</li>
+                                        <li>실습실 소개: Start-Up 프로그래밍을 비롯한 프로젝트 단위의 통합 서버구축, 프로그래밍 설계 및 구현 실습실</li>
+                                        <li>주요실습과목: Start-Up 프로그래밍, 학과 동아리 프로젝트, 연구세미나</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Contact List -->
+        <br><br><br>
+        <!--========== FOOTER ==========-->
+        <footer class="footer">
+            <!-- Copyright -->
+            <div class="content container">
+                <div class="row">
+                    <div class="col-xs-6">
+                        <img class="footer-logo" src="img/down/logo-white.png" alt="Asentus Logo">
+                    </div>
+                </div>
+                <!--// end row -->
+            </div>
+            <!-- End Copyright -->
+        </footer>
+        <!--========== END FOOTER ==========-->
+
+        <!-- Back To Top -->
+        <a href="javascript:void(0);" class="js-back-to-top back-to-top">Top</a>
+
+        <!-- JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
+        <!-- CORE PLUGINS -->
+        <script src="vendor/jquery.min.js" type="text/javascript"></script>
+        <script src="vendor/jquery-migrate.min.js" type="text/javascript"></script>
+        <script src="vendor/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+
+        <!-- PAGE LEVEL PLUGINS -->
+        <script src="vendor/jquery.easing.js" type="text/javascript"></script>
+        <script src="vendor/jquery.back-to-top.js" type="text/javascript"></script>
+        <script src="vendor/jquery.smooth-scroll.js" type="text/javascript"></script>
+        <script src="vendor/jquery.wow.min.js" type="text/javascript"></script>
+        <script src="vendor/jquery.parallax.min.js" type="text/javascript"></script>
+
+        <!-- PAGE LEVEL SCRIPTS -->
+        <script src="js/layout.min.js" type="text/javascript"></script>
+        <script src="js/components/wow.min.js" type="text/javascript"></script>
+        <script src="js/components/gmap.min.js" type="text/javascript"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBsXUGTFS09pLVdsYEE9YrO2y4IAncAO2U&amp;callback=initMap" async defer></script>
+
+    </body>
+    <!-- END BODY -->
+</html>
