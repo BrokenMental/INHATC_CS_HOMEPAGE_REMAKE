@@ -31,6 +31,7 @@
     <link href="css/layout.min.css" rel="stylesheet" type="text/css" />
     <link href="css/home.css" rel="stylesheet" type="text/css" />
     <link href="css/slider.css" rel="stylesheet" type="text/css" />
+    <link href="css/make_tab.css" rel="stylesheet" type="text/css" />
     <!-- Favicon -->
     <link rel="shortcut icon" href="img/down/favicon.ico" /> </head>
 <!-- END HEAD -->
@@ -73,36 +74,62 @@
     <!--========== SLIDER ==========-->
     <div id="slider" onmouseover="stopsli()" onmouseout="startsli()"> <img class="myslides fade-sli" src="img/down/00.png"> <img class="myslides fade-sli" src="img/down/12.png"><img class="myslides fade-sli" src="img/down/32.jpg">
         <div id="box-dot"> <span class="dot" onclick="currentDiv(1)"></span> <span class="dot" onclick="currentDiv(2)"></span> <span class="dot" onclick="currentDiv(3)"></span> </div>
-        <div class="a-left" onclick="plusDivs(-1)"><p class="parrow">&#10094;</p></div>
-        <div class="a-right" onclick="plusDivs(1)"><p class="parrow">&#10095;</p></div>
+        <div class="a-left" onclick="plusDivs(-1)">
+            <p class="parrow">&#10094;</p>
+        </div>
+        <div class="a-right" onclick="plusDivs(1)">
+            <p class="parrow">&#10095;</p>
+        </div>
     </div>
     <!-- Testimonials -->
     <!-- End Testimonials -->
     <!--========== SLIDER ==========-->
-    <div class='fadediv'>
-        <div class='fadediv1 fade-in is-paused'>
-            <img src= "img/down/home/hak_ch.PNG">
+    <div class="div-stand">
+        <div class="div-tab">
+            <p id="p1" onclick="cgcolor(1)">학과공지</p>
         </div>
-        <div class='fadediv2 fade-in is-paused'>
-            <img src= "img/down/home/gwa_ch.PNG">
+        <div class="div-tab">
+            <p id="p2" onclick="cgcolor(2)">학교공지</p>
+        </div>
+    </div>
+    <div class="div-bstand">
+        <div class="div-content1" id="div-content1">
+            <div class="fadediv1 fade-in is-paused"> <img src="img/down/home/hak_ch.PNG"> </div>
+        </div>
+        <div class="div-content1" id="div-content2">
+            <div class="fadediv2 fade-in is-paused"> <img src="img/down/home/gwa_ch.PNG"> </div>
+        </div>
+    </div>
+    <div class="div-stand">
+        <div class="div-tab">
+            <p id="p3" onclick="cgcolor(3)">채용정보(학과)</p>
+        </div>
+        <div class="div-tab">
+            <p id="p4" onclick="cgcolor(4)">채용정보(교내)</p>
+        </div>
+    </div>
+    <div class="div-bstand">
+        <div class="div-content2" id="div-content3">
+            <div class="fadediv3 fade-in is-paused"> <img src="img/down/home/hak_ch_full.PNG"> </div>
+        </div>
+        <div class="div-content2" id="div-content4">
+            <div class="fadediv4 fade-in is-paused"> <img src="img/down/home/gwa_ch_full.PNG"> </div>
         </div>
     </div>
     <!--========== END PAGE LAYOUT ==========-->
     <!-- Copyright -->
     <footer class="ft">
         <!-- Copyright -->
-            <div class="logo-div"> 
-                <img class="ft-logo"  src="img/down/logo-white.png" alt="Asentus Logo"> 
-            </div>
-            <div class="text-div" style="color: white;"> Shared by <i class="fa fa-love"></i><a href="https://bootstrapthemes.co">BootstrapThemes</a>
-                <br> Changed by Mojuk Group
-        </div>
+        <div class="logo-div"> <img class="ft-logo" src="img/down/logo-white.png" alt="Asentus Logo"> </div>
+        <div class="text-div" style="color: white;"> Shared by <i class="fa fa-love"></i><a href="https://bootstrapthemes.co">BootstrapThemes</a>
+            <br> Changed by Mojuk Group </div>
         <!--// end row -->
         <!-- End Copyright -->
     </footer>
     <!-- Back To Top --><a href="javascript:void(0);" class="js-back-to-top back-to-top">Top</a>
     <!-- JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
     <!-- CORE PLUGINS -->
+    <script src="js/make_tab.js"></script>
     <script src="vendor/jquery.min.js" type="text/javascript"></script>
     <script src="vendor/jquery-migrate.min.js" type="text/javascript"></script>
     <script src="vendor/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
