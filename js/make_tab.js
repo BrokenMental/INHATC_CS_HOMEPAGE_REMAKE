@@ -2,14 +2,18 @@ var divcon1 = document.getElementById("div-content1");
 var divcon2 = document.getElementById("div-content2");
 var divcon3 = document.getElementById("div-content3");
 var divcon4 = document.getElementById("div-content4");
-divcon1.style.display = "none";
+divcon1.style.display = "block";
 divcon2.style.display = "none";
-divcon3.style.display = "none";
+divcon3.style.display = "block";
 divcon4.style.display = "none";
 var p1 = document.getElementById("p1");
 var p2 = document.getElementById("p2");
 var p3 = document.getElementById("p3");
 var p4 = document.getElementById("p4");
+p1.style.background = "white";
+p1.style.color = "darkseagreen";
+p3.style.background = "white";
+p3.style.color = "darkseagreen";
 
 function cgcolor(num) {
     if (num == 1) {
