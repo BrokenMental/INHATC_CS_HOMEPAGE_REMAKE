@@ -11,130 +11,202 @@
     Premium:        Premium Metronic Admin Theme: http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes
 ================================== -->
 <html lang="en" class="no-js">
-<!-- BEGIN HEAD -->
+    <!-- BEGIN HEAD -->
+    <head>
+        <meta charset="utf-8"/>
+        <title>INHATC_CS Gallery</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta content="width=device-width, initial-scale=1" name="viewport"/>
+        <meta content="" name="description"/>
+        <meta content="" name="author"/>
 
-<head>
-    <meta charset="utf-8" />
-    <title>INHATC_CS Gallery</title>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta content="width=device-width, initial-scale=1" name="viewport" />
-    <meta content="" name="description" />
-    <meta content="" name="author" />
-    <!-- GLOBAL MANDATORY STYLES -->
-    <link href="http://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet" type="text/css">
-    <link href="vendor/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css" />
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <!-- PAGE LEVEL PLUGIN STYLES -->
-    <link href="css/animate.css" rel="stylesheet">
-    <!-- THEME STYLES -->
-    <link href="css/layout.min.css" rel="stylesheet" type="text/css" />
-    <!-- Favicon -->
-    <link rel="shortcut icon" href="img/down/favicon.ico" /> </head>
-<!-- END HEAD -->
-<!-- BODY -->
+        <!-- GLOBAL MANDATORY STYLES -->
+        <link href="http://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet" type="text/css">
+        <link href="vendor/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css"/>
+        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
 
-<body>
-    <!--========== HEADER ==========-->
-    <header class="header navbar-fixed-top">
-        <!-- Navbar -->
-        <nav class="navbar" role="navigation">
-            <div class="container">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="menu-container">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse"> <span class="sr-only">Toggle navigation</span> <span class="toggle-icon"></span> </button>
-                    <!-- Logo -->
-                    <div class="logo">
-                        <a class="logo-wrap" href="home.html"> <img class="logo-img logo-img-main" height="100px;" src="img/down/logo-white.png" alt="Asentus Logo"> <img class="logo-img logo-img-active" src="img/down/logo.png" alt="Asentus Logo"> </a>
-                    </div>
-                    <!-- End Logo -->
-                </div>
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse nav-collapse">
+        <!-- PAGE LEVEL PLUGIN STYLES -->
+        <link href="css/animate.css" rel="stylesheet">
+
+        <!-- THEME STYLES -->
+        <link href="css/layout.min.css" rel="stylesheet" type="text/css"/>
+
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="img/down/favicon.ico"/>
+    </head>
+    <!-- END HEAD -->
+    <!-- BODY -->
+    <body>
+
+        <!--========== HEADER ==========-->
+        <header class="header navbar-fixed-top">
+            <!-- Navbar -->
+            <nav class="navbar" role="navigation">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
                     <div class="menu-container">
-                        <ul class="navbar-nav navbar-nav-right">
-                            <li class="nav-item"><a class="nav-item-child nav-item-hover" href="home.html">Home</a></li>
-                            <li class="nav-item"><a class="nav-item-child nav-item-hover" href="notice.html">Notice</a></li>
-                            <li class="nav-item"><a class="nav-item-child nav-item-hover" href="introduce.html">Introduce</a></li>
-                            <li class="nav-item"><a class="nav-item-child nav-item-hover" href="employment.html">Employment</a></li>
-                            <li class="nav-item"><a class="nav-item-child nav-item-hover active" href="gallery.html">Gallery</a></li>
-                            <!--<li class="nav-item"><a class="nav-item-child nav-item-hover" href="contact.html">Contact</a></li>-->
-                        </ul>
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="toggle-icon"></span>
+                        </button>
+
+                        <!-- Logo -->
+                        <div class="logo">
+                            <a class="logo-wrap" href="home.html">
+                                <img class="logo-img logo-img-main" height="100px;" src="img/down/logo-white.png" alt="Asentus Logo">
+                                <img class="logo-img logo-img-active" src="img/down/logo.png" alt="Asentus Logo">
+                            </a>
+                        </div>
+                        <!-- End Logo -->
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse nav-collapse">
+                        <div class="menu-container">
+                            <ul class="navbar-nav navbar-nav-right">
+                                <li class="nav-item"><a class="nav-item-child nav-item-hover" href="home.html">Home</a></li>
+                                <li class="nav-item"><a class="nav-item-child nav-item-hover" href="notice.html">Notice</a></li>
+                                <li class="nav-item"><a class="nav-item-child nav-item-hover" href="introduce.html">Introduce</a></li>
+                                <li class="nav-item"><a class="nav-item-child nav-item-hover" href="employment.html">Employment</a></li>
+                                <li class="nav-item"><a class="nav-item-child nav-item-hover active" href="gallery.html">Gallery</a></li>
+                                <!--<li class="nav-item"><a class="nav-item-child nav-item-hover" href="contact.html">Contact</a></li>-->
+                            </ul>
+                        </div>
+                    </div>
+         
+                </div>
+            </nav>
+            
+        </header>
+        <!--========== END HEADER ==========-->
+
+        <!--========== PARALLAX ==========-->
+        
+
+        <div class="parallax-window" data-parallax="scroll" data-image-src="img/1920x1080/gallery.jpg" >
+            <div class="parallax-content container">
+                <h1 class="carousel-title">갤러리</h1>
+                <p>IT 융합시대를 선도하는 컴퓨터정보과</p>
+            </div>
+        </div>
+    <!--========== PAGE LAYOUT ==========-->
+        <!-- Service -->
+        <style>
+            .shadow{
+                width:300px;
+                height:200px;
+                margin:30px ;
+                
+                border:1px solid rgb(0, 0, 0);
+                float:left;padding-right:30px;margin-bottom:40px;
+            }
+             
+            .shadow img{
+                width:300px;
+                height:200px;
+            }
+             
+            .shadow img:hover{
+                cursor:pointer;
+                -webkit-transform:scale(1);
+                transform:scale(1.5);
+            }
+        </style>
+
+        <div class="bg-color-sky-light" data-auto-height="true">
+            <div class="content-lg container">
+                <div>
+                    <div>
+                        <div class="shadow" style="float:left;padding-right:30px;margin-bottom:40px;">         
+                            <img src="img/970x970/01.png" width="300px" height="200px"/>  
+                            <h6 style="text-align:left;height:18px"><b>작성자:프로젝트<b></h6>
+                            <h6 style="text-align:left;height:20px">제목:인하공업전문대학1</h6>         
+                        </div>
+                        <div class="shadow" style="float:left;padding-right:30px;margin-bottom:40px;">         
+                            <img src="img/970x970/02.jpg" width="300px" height="200px"/>  
+                            <h6 style="text-align:left;height:18px"><b>작성자:프로젝트<b></h6>
+                            <h6 style="text-align:left;height:20px">제목:인하공업전문대학2</h6>         
+                        </div>
+                        <div class="shadow" style="float:left;padding-right:30px;margin-bottom:40px;">         
+                            <img src="img/970x970/03.jpg" width="300px" height="200px"/>  
+                            <h6 style="text-align:left;height:18px"><b>작성자:프로젝트<b></h6>
+                            <h6 style="text-align:left;height:20px">제목:인하공업전문대학3</h6>         
+                        </div>
+                        <div class="shadow" style="float:left;padding-right:30px;margin-bottom:40px;">         
+                            <img src="img/970x970/04.jpg" width="300px" height="200px"/>  
+                            <h6 style="text-align:left;height:18px"><b>작성자:프로젝트<b></h6>
+                            <h6 style="text-align:left;height:20px">제목:인하공업전문대학4</h6>         
+                        </div>
+                        <div class="shadow" style="float:left;padding-right:30px;margin-bottom:40px;">         
+                            <img src="img/970x970/05.png" width="300px" height="200px"/>  
+                            <h6 style="text-align:left;height:18px"><b>작성자:프로젝트<b></h6>
+                            <h6 style="text-align:left;height:20px">제목:인하공업전문대학5</h6>         
+                        </div>
+                        <div class="shadow" style="float:left;padding-right:30px;margin-bottom:40px;">         
+                            <img src="img/970x970/06.png" width="300px" height="200px"/>  
+                            <h6 style="text-align:left;height:18px"><b>작성자:프로젝트<b></h6>
+                            <h6 style="text-align:left;height:20px">제목:학과소개1</h6>         
+                        </div>
+                        <div class="shadow" style="float:left;padding-right:30px;margin-bottom:40px;">         
+                            <img src="img/970x970/07.png" width="300px" height="200px"/>  
+                            <h6 style="text-align:left;height:18px"><b>작성자:프로젝트<b></h6>
+                            <h6 style="text-align:left;height:20px">제목:학과소개2</h6>         
+                        </div>
+                        <div class="shadow" style="float:left;padding-right:30px;margin-bottom:40px;">         
+                            <img src="img/970x970/08.png" width="300px" height="200px"/>  
+                            <h6 style="text-align:left;height:18px"><b>작성자:프로젝트<b></h6>
+                            <h6 style="text-align:left;height:20px">제목:학과소개3</h6>         
+                        </div>
+                        
+                    </div>
+                 </div>
+            </div>
+        </div>
+        <!-- End Service -->
+
+        <!-- General Questions -->
+        
+
+        <!--========== FOOTER ==========-->
+        <footer class="footer">
+        
+
+            <!-- Copyright -->
+            <div class="content container">
+                <div class="row">
+                    <div class="col-xs-6">
+                        <img class="footer-logo" src="img/down/logo.png" alt="Asentus Logo">
+                    </div>
+                    <div class="col-xs-6 text-right">
+                         <i class="fa fa-love"></i><a href="http://www.inhatc.ac.kr">인하공업전문대학</a>
                     </div>
                 </div>
+                <!--// end row -->
             </div>
-        </nav>
-    </header>
-    <!--========== END HEADER ==========-->
-    <!--========== PARALLAX ==========-->
-    <div class="parallax-window" data-parallax="scroll" data-image-src="img/1920x1080/gallery.jpg">
-        <div class="parallax-content container">
-            <h1 class="carousel-title">갤러리</h1>
-            <p>IT 융합시대를 선도하는 컴퓨터정보과</p>
-        </div>
-    </div>
-    <!--========== PAGE LAYOUT ==========-->
-    <!-- Service -->
-    <div class="bg-color-sky-light" data-auto-height="true">
-        <div class="content-lg container">
-            <div>
-                <div>
-                    <div id="item" style="float:left;padding-right:30px;margin-bottom:40px;"> <img src="img/970x970/01.png" width="300px" height="200px" />
-                        <h6 style="text-align:left;height:18px"><b>작성자:프로젝트<b></h6>
-                        <h6 style="text-align:left;height:20px">제목:인하공업전문대학1</h6> </div>
-                    <div id="item" style="float:left;padding-right:30px;margin-bottom:40px;"> <img src="img/970x970/02.jpg" width="300px" height="200px" />
-                        <h6 style="text-align:left;height:18px"><b>작성자:프로젝트<b></h6>
-                        <h6 style="text-align:left;height:20px">제목:인하공업전문대학2</h6> </div>
-                    <div id="item" style="float:left;padding-right:30px;margin-bottom:40px;"> <img src="img/970x970/03.jpg" width="300px" height="200px" />
-                        <h6 style="text-align:left;height:18px"><b>작성자:프로젝트<b></h6>
-                        <h6 style="text-align:left;height:20px">제목:인하공업전문대학3</h6> </div>
-                    <div id="item" style="float:left;padding-right:30px;margin-bottom:40px;"> <img src="img/970x970/04.jpg" width="300px" height="200px" />
-                        <h6 style="text-align:left;height:18px"><b>작성자:프로젝트<b></h6>
-                        <h6 style="text-align:left;height:20px">제목:인하공업전문대학4</h6> </div>
-                    <div id="item" style="float:left;padding-right:30px;margin-bottom:40px;"> <img src="img/970x970/05.png" width="300px" height="200px" />
-                        <h6 style="text-align:left;height:18px"><b>작성자:프로젝트<b></h6>
-                        <h6 style="text-align:left;height:20px">제목:인하공업전문대학5</h6> </div>
-                    <div id="item" style="float:left;padding-right:30px;margin-bottom:40px;"> <img src="img/970x970/06.png" width="300px" height="200px" />
-                        <h6 style="text-align:left;height:18px"><b>작성자:프로젝트<b></h6>
-                        <h6 style="text-align:left;height:20px">제목:학과소개1</h6> </div>
-                    <div id="item" style="float:left;padding-right:30px;margin-bottom:40px;"> <img src="img/970x970/07.png" width="300px" height="200px" />
-                        <h6 style="text-align:left;height:18px"><b>작성자:프로젝트<b></h6>
-                        <h6 style="text-align:left;height:20px">제목:학과소개2</h6> </div>
-                    <div id="item" style="float:left;padding-right:30px;margin-bottom:40px;"> <img src="img/970x970/08.png" width="300px" height="200px" />
-                        <h6 style="text-align:left;height:18px"><b>작성자:프로젝트<b></h6>
-                        <h6 style="text-align:left;height:20px">제목:학과소개3</h6> </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End Service -->
-    <!-- General Questions -->
-    <!--========== FOOTER ==========-->
-    <!-- Copyright -->
-    <div class="content container">
-        <div class="row">
-            <div class="col-xs-6"> <img class="footer-logo" height="30px;" src="img/down/logo.PNG" alt="Asentus Logo"> </div>
-            <div class="col-xs-6 text-right"> 인하공업 전문대학 <i class="fa fa-love"></i><a href="http://cms.itc.ac.kr/site/inhatc/main.do">INHA TECHNICAL COLLAGE</a>
-                <br> Changed by <a href="http://mojuk.inhatc.ac.kr">Mojuk Group</a> </div>
-        </div>
-        <!--// end row -->
-    </div>
-    <!--========== END FOOTER ==========-->
-    <!-- Back To Top --><a href="javascript:void(0);" class="js-back-to-top back-to-top">Top</a>
-    <!-- JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
-    <!-- CORE PLUGINS -->
-    <script src="vendor/jquery.min.js" type="text/javascript"></script>
-    <script src="vendor/jquery-migrate.min.js" type="text/javascript"></script>
-    <script src="vendor/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
-    <!-- PAGE LEVEL PLUGINS -->
-    <script src="vendor/jquery.easing.js" type="text/javascript"></script>
-    <script src="vendor/jquery.back-to-top.js" type="text/javascript"></script>
-    <script src="vendor/jquery.smooth-scroll.js" type="text/javascript"></script>
-    <script src="vendor/jquery.wow.min.js" type="text/javascript"></script>
-    <script src="vendor/jquery.parallax.min.js" type="text/javascript"></script>
-    <!-- PAGE LEVEL SCRIPTS -->
-    <script src="js/layout.min.js" type="text/javascript"></script>
-    <script src="js/components/wow.min.js" type="text/javascript"></script>
-</body>
-<!-- END BODY -->
+            <!-- End Copyright -->
+        </footer>
+        <!--========== END FOOTER ==========-->
 
+        <!-- Back To Top -->
+        <a href="javascript:void(0);" class="js-back-to-top back-to-top">Top</a>
+
+        <!-- JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
+        <!-- CORE PLUGINS -->
+        <script src="vendor/jquery.min.js" type="text/javascript"></script>
+        <script src="vendor/jquery-migrate.min.js" type="text/javascript"></script>
+        <script src="vendor/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+
+        <!-- PAGE LEVEL PLUGINS -->
+        <script src="vendor/jquery.easing.js" type="text/javascript"></script>
+        <script src="vendor/jquery.back-to-top.js" type="text/javascript"></script>
+        <script src="vendor/jquery.smooth-scroll.js" type="text/javascript"></script>
+        <script src="vendor/jquery.wow.min.js" type="text/javascript"></script>
+        <script src="vendor/jquery.parallax.min.js" type="text/javascript"></script>
+
+        <!-- PAGE LEVEL SCRIPTS -->
+        <script src="js/layout.min.js" type="text/javascript"></script>
+        <script src="js/components/wow.min.js" type="text/javascript"></script>
+
+    </body>
+    <!-- END BODY -->
 </html>
