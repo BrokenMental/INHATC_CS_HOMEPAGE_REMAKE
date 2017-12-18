@@ -1,10 +1,9 @@
 .containers{
     position: relative;
-    top:800px;
+    top: 800px;
     width: 780px;
     height: 500px;
     margin: auto;
-    margin-left: 500px;
 }
 
 ul.tabs{
